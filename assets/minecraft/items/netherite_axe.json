@@ -1,0 +1,543 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"model": "item/netherite_axe/netherite_axe",
+			"property": "component",
+			"component": "custom_name",
+	  		"cases": [
+					{
+				"when": [
+						"Axe of Peace",
+						"Technoaxe"
+					],
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/axe_of_peace"
+			 			}
+					},
+					{
+				"when": "Double Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/double_axe"
+			 			}
+					},
+					{
+				"when": "Rock Guitar",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/rock_guitar"
+			 			}
+					},
+					{
+				"when": "Jake The Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/jake_the_axe"
+			 			}
+					},
+					{
+				"when": "Super Cute Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/super_cute_axe"
+			 			}
+					},
+					{
+				"when": "Morning Star",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/morning_star"
+			 			}
+					},
+					{
+				"when": "Highland Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/highland_axe"
+			 			}
+					},
+					{
+				"when": "Anchor",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/anchor"
+			 			}
+					},
+					{
+				"when": "Axeblade",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/axeblade"
+			 			}
+					},
+					{
+				"when": "Chainsaw",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/chainsaw"
+			 			}
+					},
+					{
+				"when": "Command Block Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/command_block_axe"
+			 			}
+					},
+					{
+				"when": "Sun's Grace",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/sun_grace"
+			 			}
+					},
+					{
+				"when": "Whirlwind",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/whirlwind"
+			 			}
+					},
+					{
+				"when": "Creator's Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/creator_axe"
+			 			}
+					},
+					{
+				"when": "Firebrand",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/firebrand"
+			 			}
+					},
+					{
+				"when": "Shieldbreaker Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/shieldbreaker_axe"
+			 			}
+					},
+					{
+				"when": "Redstone Riot Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/redstone_riot_axe"
+			 			}
+					},
+					{
+				"when": "Axe of Infinity",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/axe_of_infinity"
+			 			}
+					},
+					{
+				"when": "Dragonslayer Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/dragonslayer_axe"
+			 			}
+					},
+					{
+				"when": "Dragonmaster Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/dragonmaster_axe"
+			 			}
+					},
+					{
+				"when": "Space Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/space_axe"
+			 			}
+					},
+					{
+				"when": "Vortex Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/vortex_axe"
+			 			}
+					},
+					{
+				"when": "Robot Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/robot_axe"
+			 			}
+					},
+					{
+				"when": "Droid Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/droid_axe"
+			 			}
+					},
+					{
+				"when": "Journey Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/journey_axe"
+			 			}
+					},
+					{
+				"when": "Cursed Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/cursed_axe"
+			 			}
+					},
+					{
+				"when": "Scarlet Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/scarlet_axe"
+			 			}
+					},
+					{
+				"when": "Sakura Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/sakura_axe"
+			 			}
+					},
+					{
+				"when": "Lava Warrior Hamaxe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/lava_warrior_hamaxe"
+			 			}
+					},
+					{
+				"when": "Vortex Hamaxe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/vortex_hamaxe"
+			 			}
+					},
+					{
+				"when": "Space Hamaxe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/space_hamaxe"
+			 			}
+					},
+					{
+				"when": "Haemorrhaxe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/haemorrhaxe"
+			 			}
+					},
+					{
+				"when": "Beenest Hamaxe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/beenest_hamaxe"
+			 			}
+					},
+					{
+				"when": "Slapperaxe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/slapperaxe"
+			 			}
+					},
+					{
+				"when": "Tropical Slapperaxe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/tropical_slapperaxe"
+			 			}
+					},
+					{
+				"when": "Hit of the Cauldron",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/hit_of_the_cauldron"
+			 			}
+					},
+					{
+				"when": "Shady Chainsaw",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/shady_chainsaw"
+			 			}
+					},
+					{
+				"when": "Tim's Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/tim_axe"
+			 			}
+					},
+					{
+				"when": "Adamantium Impervium Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/adamantium_impervium_axe"
+			 			}
+					},
+					{
+				"when": "Dragonsbane Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/dragonsbane_axe"
+			 			}
+					},
+					{
+				"when": "Ender Defender Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/ender_defender_axe"
+			 			}
+					},
+					{
+				"when": "Ellegaard's Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/ellegaard_axe"
+			 			}
+					},
+					{
+				"when": "Magnus' Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/magnus_axe"
+			 			}
+					},
+					{
+				"when": "Golden Apple Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/golden_apple_axe"
+			 			}
+					},
+					{
+				"when": "Golden Goliath Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/golden_goliath_axe"
+			 			}
+					},
+					{
+				"when": "Petra's Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/petra_axe"
+			 			}
+					},
+					{
+				"when": "Star Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/star_axe"
+			 			}
+					},
+					{
+				"when": "Gabriel's Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/gabriel_axe"
+			 			}
+					},
+					{
+				"when": "Ivor's Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/ivor_axe"
+			 			}
+					},
+					{
+				"when": "Romeo's Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/romeo_axe"
+			 			}
+					},
+					{
+				"when": "Xara's Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/xara_axe"
+			 			}
+					},
+					{
+				"when": "Fred's Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/fred_axe"
+			 			}
+					},
+					{
+				"when": "Heavy Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/heavy_axe"
+			 			}
+					},
+					{
+				"when": "Prismarine Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/prismarine_axe"
+			 			}
+					},
+					{
+				"when": "Poisonous Potato Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/poisonous_potato_axe"
+			 			}
+					},
+					{
+				"when": "Brite Guitar",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/brite_guitar"
+			 			}
+					},
+					{
+				"when": "Idol Guitar",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/idol_guitar"
+			 			}
+					},
+					{
+				"when": "Candy Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/candy_axe"
+			 			}
+					},
+					{
+				"when": "Kemetian Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/kemetian_axe"
+			 			}
+					},
+					{
+				"when": "Hellenic Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/hellenic_axe"
+			 			}
+					},
+					{
+				"when": "Sinitic Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/sinitic_axe"
+			 			}
+					},
+					{
+				"when": "Fantasy Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/fantasy_axe"
+			 			}
+					},
+					{
+				"when": "Norroen Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/norroen_axe"
+			 			}
+					},
+					{
+				"when": "Halloween Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/halloween_axe"
+			 			}
+					},
+					{
+				"when": "Glass Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/glass_axe"
+			 			}
+					},
+					{
+				"when": "Dragonheart Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/dragonheart_axe"
+			 			}
+					},
+					{
+				"when": "Orcish Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/orcish_axe"
+			 			}
+					},
+					{
+				"when": "Ancient Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/ancient_axe"
+			 			}
+					},
+					{
+				"when": "Ender Dragon Axe",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/ender_dragon_axe"
+			 			}
+					},
+					{
+				"when": "Star Wand",
+				"model": {
+					"type": "model",
+					"model": "item/netherite_axe/star_wand"
+			 			}
+					}
+		  		],
+			"fallback": {
+				"type": "range_dispatch",
+				"property": "damage",
+				"scale": 4,
+				"entries": [
+					{
+						"threshold": 0,
+						"model": {
+							"type": "model",
+							"model": "item/netherite_axe/netherite_axe"
+						}
+					},
+					{
+						"threshold": 1,
+						"model": {
+							"type": "model",
+							"model": "item/netherite_axe/netherite_axe_damaged_0"
+						}
+					},
+					{
+						"threshold": 2,
+						"model": {
+							"type": "model",
+							"model": "item/netherite_axe/netherite_axe_damaged_1"
+						}
+					},
+					{
+						"threshold": 3,
+						"model": {
+							"type": "model",
+							"model": "item/netherite_axe/netherite_axe_damaged_2"
+						}
+					}
+				]
+			}
+		},
+	}
+}

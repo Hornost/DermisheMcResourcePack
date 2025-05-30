@@ -1,0 +1,51 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "model": "minecraft:item/iron_ingot",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Camera",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/camera"
+          }
+        },
+        {
+          "when": "Camera Hand",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/camera_hand"
+          }
+        },
+        {
+          "when": "Camera Stand",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/camera_stand"
+          }
+        },
+		{
+          "when": "Microphone",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/microphone"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/iron_ingot"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_ingot"
+    }
+  }
+}
