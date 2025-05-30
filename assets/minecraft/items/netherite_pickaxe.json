@@ -392,40 +392,13 @@
 					}
 		  		],
 			"fallback": {
-				"type": "range_dispatch",
-				"property": "damage",
-				"scale": 4,
-				"entries": [
-					{
-						"threshold": 0,
-						"model": {
-							"type": "model",
-							"model": "item/netherite_pickaxe/netherite_pickaxe"
-						}
-					},
-					{
-						"threshold": 1,
-						"model": {
-							"type": "model",
-							"model": "item/netherite_pickaxe/netherite_pickaxe_damaged_0"
-						}
-					},
-					{
-						"threshold": 2,
-						"model": {
-							"type": "model",
-							"model": "item/netherite_pickaxe/netherite_pickaxe_damaged_1"
-						}
-					},
-					{
-						"threshold": 3,
-						"model": {
-							"type": "model",
-							"model": "item/netherite_pickaxe/netherite_pickaxe_damaged_2"
-						}
-					}
-				]
+				"type": "minecraft:model",
+				"model": "minecraft:item/netherite_pickaxe"
 			}
 		},
+		"on_false": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/netherite_pickaxe"
+		}
 	}
 }

@@ -504,40 +504,13 @@
 					}
 		  		],
 			"fallback": {
-				"type": "range_dispatch",
-				"property": "damage",
-				"scale": 4,
-				"entries": [
-					{
-						"threshold": 0,
-						"model": {
-							"type": "model",
-							"model": "item/netherite_axe/netherite_axe"
-						}
-					},
-					{
-						"threshold": 1,
-						"model": {
-							"type": "model",
-							"model": "item/netherite_axe/netherite_axe_damaged_0"
-						}
-					},
-					{
-						"threshold": 2,
-						"model": {
-							"type": "model",
-							"model": "item/netherite_axe/netherite_axe_damaged_1"
-						}
-					},
-					{
-						"threshold": 3,
-						"model": {
-							"type": "model",
-							"model": "item/netherite_axe/netherite_axe_damaged_2"
-						}
-					}
-				]
+				"type": "minecraft:model",
+				"model": "minecraft:item/diamond"
 			}
 		},
+		"on_false": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/netherite_axe"
+		}
 	}
 }
