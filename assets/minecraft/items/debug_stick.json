@@ -1,0 +1,170 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "model": "minecraft:item/debug_stick",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Wrench",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wrench"
+          }
+        },
+        {
+          "when": "Cutie",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cutie"
+          }
+        },
+        {
+          "when": "Box Gloves",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/boxgloves"
+          }
+        },
+        {
+          "when": "Green Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus_green"
+          }
+        },
+        {
+          "when": "Lime Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus_lime"
+          }
+        },
+        {
+          "when": "Light Blue Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus_light_blue"
+          }
+        },
+        {
+          "when": "Light Gray Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus_light_gray"
+          }
+        },
+        {
+          "when": "Pink Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus_pink"
+          }
+        },
+        {
+          "when": "Purple Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus_purple"
+          }
+        },
+        {
+          "when": "Cyan Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus_cyan"
+          }
+        },
+        {
+          "when": "Magenta Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus_magenta"
+          }
+        },
+        {
+          "when": "White Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus_white"
+          }
+        },
+        {
+          "when": "Black Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus_black"
+          }
+        },
+        {
+          "when": "Brown Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus_brown"
+          }
+        },
+        {
+          "when": "Gray Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus_gray"
+          }
+        },
+        {
+          "when": "Blue Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus_blue"
+          }
+        },
+        {
+          "when": "Prismatic Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus_prism"
+          }
+        },
+        {
+          "when": "Suspicious Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_sus"
+          }
+        },
+        {
+          "when": "Lemon Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_lemon"
+          }
+        },
+        {
+          "when": "Lemon",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/lemon"
+          }
+        },
+        {
+          "when": "Elemental Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/totem_element"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/debug_stick"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/debug_stick"
+    }
+  }
+}
