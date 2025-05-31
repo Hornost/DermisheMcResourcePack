@@ -24,10 +24,10 @@
           }
         },
         {
-          "when": "Yellow Suspicious Totem",
+          "when": "Box Gloves",
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/totem_sus_yellow"
+            "model": "minecraft:item/boxgloves"
           }
         },
         {
