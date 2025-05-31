@@ -36,6 +36,13 @@
             "type": "minecraft:model",
             "model": "minecraft:item/microphone"
           }
+        },
+		{
+          "when": "Shotgun",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/shotgun"
+          }
         }
       ],
       "fallback": {
