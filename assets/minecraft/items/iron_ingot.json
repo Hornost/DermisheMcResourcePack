@@ -85,6 +85,13 @@
             "type": "minecraft:model",
             "model": "minecraft:item/cardboard_12x12"
           }
+		},
+		{
+          "when": "Roomba",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/roomba"
+          }
         }
 		
       ],
