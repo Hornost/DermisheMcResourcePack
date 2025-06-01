@@ -1,0 +1,51 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "model": "minecraft:item/bundle",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+		{
+          "when": "Cardboard 10x8",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cardboard_10x8"
+          }
+        },
+				{
+          "when": "Cardboard 10x12",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cardboard_10x12"
+          }
+        },
+				{
+          "when": "Cardboard 12x10",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cardboard_12x10"
+          }
+        },
+				{
+          "when": "Cardboard 12x12",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cardboard_12x12"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/bundle"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/bundle"
+    }
+  }
+}
