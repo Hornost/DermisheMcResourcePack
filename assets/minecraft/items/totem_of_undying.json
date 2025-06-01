@@ -31,13 +31,6 @@
           }
         },
         {
-          "when": "Green Suspicious Totem",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/totem_sus_green"
-          }
-        },
-        {
           "when": "Lime Suspicious Totem",
           "model": {
             "type": "minecraft:model",

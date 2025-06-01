@@ -43,7 +43,50 @@
             "type": "minecraft:model",
             "model": "minecraft:item/shotgun"
           }
+        },
+		{
+          "when": "Bat",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bat"
+          }
+        },
+		{
+          "when": "Frogport",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/frogport"
+          }
+        },
+		{
+          "when": "Cardboard 10x8",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cardboard_10x8"
+          }
+        },
+				{
+          "when": "Cardboard 10x12",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cardboard_10x12"
+          }
+        },
+				{
+          "when": "Cardboard 12x10",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cardboard_12x10"
+          }
+        },
+				{
+          "when": "Cardboard 12x12",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cardboard_12x12"
+          }
         }
+		
       ],
       "fallback": {
         "type": "minecraft:model",
