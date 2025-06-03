@@ -36,7 +36,15 @@
             "type": "minecraft:model",
             "model": "minecraft:item/cardboard_12x12"
           }
+        },
+				{
+          "when": "Toolbox",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/toolbox"
+          }
         }
+		
       ],
       "fallback": {
         "type": "minecraft:model",

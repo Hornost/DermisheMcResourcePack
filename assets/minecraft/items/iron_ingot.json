@@ -92,6 +92,34 @@
             "type": "minecraft:model",
             "model": "minecraft:item/roomba"
           }
+        },
+		{
+          "when": "Kerfur Pink",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/kerfur"
+          }
+        },
+		{
+          "when": "Monitor with Keyboard",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/monitor_keyboard"
+          }
+        },
+		{
+          "when": "Monitor",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/monitor"
+          }
+        },
+		{
+          "when": "System Unit",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/system_blok"
+          }
         }
 		
       ],
