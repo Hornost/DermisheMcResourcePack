@@ -120,6 +120,83 @@
             "type": "minecraft:model",
             "model": "minecraft:item/system_blok"
           }
+        },
+		{
+          "when": "Wrench",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wrench"
+          }
+        },
+		{
+          "when": "Toolbox",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/toolbox"
+          }
+        },
+		{
+          "when": "Morphine Syringe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/morphine_syringe"
+          }
+        },
+		{
+          "when": "Morphine Syringe Empty",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/morphine_syringe_empty"
+          }
+        },
+		{
+          "when": "Morphine Syringe Full",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/morphine_syringe_full"
+          }
+        },
+		{
+          "when": "Clipboard",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/2d/clipboard"
+          }
+        },
+		{
+          "when": "Clipboard Empty",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/2d/empty_clipboard"
+          }
+        },
+		{
+          "when": "Schematic",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/2d/empty_schematic"
+          }
+        },
+		{
+          "when": "Schematic And Quill",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/2d/schematic_and_quill"
+          }
+        },
+		{
+          "when": "Sand Paper",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/2d/sand_paper"
+          }
+        },
+		{
+          "when": "Shopping List",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/2d/shopping_list"
+          }
         }
 		
       ],

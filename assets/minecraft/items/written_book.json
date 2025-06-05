@@ -13,7 +13,28 @@
           "when": "Mail",
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/mail"
+            "model": "minecraft:item/2d/mail"
+          }
+        },
+		{
+          "when": "Schematic",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/2d/empty_schematic"
+          }
+        },
+		{
+          "when": "Clipboard",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/2d/clipboard"
+          }
+        },
+		{
+          "when": "Shopping List",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/2d/shopping_list"
           }
         }
       ],

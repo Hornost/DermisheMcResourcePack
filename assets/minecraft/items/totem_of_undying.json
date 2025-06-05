@@ -13,7 +13,7 @@
           "when": "Lenin",
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/lenin"
+            "model": "minecraft:item/2d/lenin"
           }
         },
         {
@@ -147,6 +147,20 @@
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/totem_element"
+          }
+        },
+		{
+          "when": "Morphine Syringe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/morphine_syringe"
+          }
+        },
+		{
+          "when": "Ring",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/ring"
           }
         }
       ],

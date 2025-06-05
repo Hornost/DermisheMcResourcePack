@@ -43,6 +43,13 @@
             "type": "minecraft:model",
             "model": "minecraft:item/toolbox"
           }
+        },
+		{
+          "when": "Box With Ring",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/ring_box"
+          }
         }
 		
       ],
