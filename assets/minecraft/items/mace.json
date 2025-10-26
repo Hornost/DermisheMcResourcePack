@@ -10,10 +10,10 @@
 			"component": "custom_name",
 	  		"cases": [
 				{
-				"when": "Ninja Hammer",
+				"when": "Holy GS Mace",
 				"model": {
 					"type": "model",
-					"model": "item/mace/ninja_hammer"
+					"model": "item/mace/holy_gs_mace"
 			 		}
 				},
 				{

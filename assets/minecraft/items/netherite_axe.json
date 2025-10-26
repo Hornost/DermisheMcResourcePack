@@ -20,10 +20,10 @@
 			 			}
 					},
 					{
-				"when": "Double Axe",
+				"when": "Holy GS Axe",
 				"model": {
 					"type": "model",
-					"model": "item/netherite_axe/double_axe"
+					"model": "item/netherite_axe/holy_gs_axe"
 			 			}
 					},
 					{

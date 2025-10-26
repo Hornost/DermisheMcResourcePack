@@ -197,6 +197,97 @@
             "type": "minecraft:model",
             "model": "minecraft:item/2d/shopping_list"
           }
+        },
+		{
+          "when": "Allay Maid",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/allay_maid"
+          }
+        },
+        {
+          "when": "Thicc Totem",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/thicc_totem"
+          }
+        },
+		{
+          "when": "Dropper Chan",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/dropper_chan"
+          }
+        },
+		{
+          "when": "Pink Bow",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/pink_bow"
+          }
+        },
+		{
+          "when": "Oak Chan",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/oak_chan"
+          }
+        },
+		{
+          "when": "Observer Chan",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/observer_chan"
+          }
+        },
+		{
+          "when": "Soap",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/soap"
+          }
+        },
+		{
+          "when": "Toilet Roll",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/toilet_roll"
+          }
+        },
+		{
+          "when": "Geyger",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/geyger"
+          }
+        },
+		{
+          "when": "Radio Stational",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/radio_stational"
+          }
+        },
+		{
+          "when": "Walkie Talkie",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/walkie_talkie"
+          }
+        },
+		{
+          "when": "CC Computer",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cc/computer"
+          }
+        },
+		{
+          "when": "CC Disk Blue",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cc/disk_blue"
+          }
         }
 		
       ],

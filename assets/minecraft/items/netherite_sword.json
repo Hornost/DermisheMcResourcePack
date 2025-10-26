@@ -23,17 +23,17 @@
 					}
 				},
 				{
-					"when": "Spine Chill Spear",
+					"when": "Hi Frequency Katana",
 					"model": {
 						"type": "model",
-						"model": "item/netherite_sword/spine_chill_spear"
+						"model": "item/netherite_sword/hi_frequency_katana"
 					}
 				},
 				{
-					"when": "Venom Glaive",
+					"when": "Holy GS Sword",
 					"model": {
 						"type": "model",
-						"model": "item/netherite_sword/venom_glaive"
+						"model": "item/netherite_sword/holy_gs_sword"
 					}
 				},
 				{

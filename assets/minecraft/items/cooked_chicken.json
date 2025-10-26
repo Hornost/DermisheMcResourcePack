@@ -5,33 +5,26 @@
     "component": "minecraft:custom_name",
     "on_true": {
       "type": "minecraft:select",
-      "model": "minecraft:item/pumpkin_pie",
+      "model": "minecraft:item/cooked_chicken",
       "property": "minecraft:component",
       "component": "minecraft:custom_name",
       "cases": [
-        {
-          "when": "Pie",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/pie"
-          }
-        },
 		{
-          "when": "Dried Ghast Pie",
+          "when": "LPH Bucket",
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/dried_ghast_pie"
+            "model": "minecraft:item/kfc"
           }
         }
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/pumpkin_pie"
+        "model": "minecraft:item/cooked_chicken"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "minecraft:item/pumpkin_pie"
+      "model": "minecraft:item/cooked_chicken"
     }
   }
 }
