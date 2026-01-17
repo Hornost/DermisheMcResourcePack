@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "block/holy_gs_weapon_texture"
+		"0": "item/mace/holy_gs_mace_texture"
 	},
 	"elements": [
 		{

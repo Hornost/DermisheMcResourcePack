@@ -45,17 +45,25 @@
           }
         },
         {
-          "when": "Light Gray Suspicious Totem",
+          "when": "Hi Frequency Katana Holster",
           "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/totem_sus_light_gray"
+            "type": "minecraft:condition",
+            "property": "minecraft:keybind_down",
+            "keybind": "key.attack",
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "item/netherite_sword/hi_frequency_katana_holster"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "item/netherite_sword/hi_frequency_katana_in_holster"
+            }
           }
         },
         {
-          "when": "Pink Suspicious Totem",
+          "when": "Empty",
           "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/totem_sus_pink"
+            "type": "minecraft:empty"
           }
         },
         {
@@ -149,28 +157,28 @@
             "model": "minecraft:item/totem_element"
           }
         },
-		{
+        {
           "when": "Morphine Syringe",
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/morphine_syringe"
           }
         },
-		{
+        {
           "when": "Ring",
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/ring"
           }
         },
-		{
+        {
           "when": "Bandage Blue",
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/bandage_blue"
           }
         },
-		{
+        {
           "when": "Bandage Red",
           "model": {
             "type": "minecraft:model",
