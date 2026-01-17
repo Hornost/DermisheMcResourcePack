@@ -33,8 +33,8 @@
               "model": "item/netherite_sword/hi_frequency_katana"
             },
             "on_false": {
-              "type": "minecraft:model",
-              "model": "item/netherite_sword/hustle_revolver"
+              "type": "minecraft:empty",
+              "model": "item/netherite_sword/hi_frequency_katana_in_holster"
             }
           }
         },
