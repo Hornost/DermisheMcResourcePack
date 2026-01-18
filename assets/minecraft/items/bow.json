@@ -1,0 +1,101 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Hustle Revolver",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "scale": 0.05,
+              "entries": [
+                {
+                  "threshold": 0.3,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bow/hustle_revolver/revolver_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 0.6,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bow/hustle_revolver/revolver_pulling_2"
+                  }
+                },
+                {
+                  "threshold": 0.8,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bow/hustle_revolver/revolver_pulling_3"
+                  }
+                },
+                {
+                  "threshold": 0.99,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bow/hustle_revolver/revolver_idle"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "item/bow/hustle_revolver/revolver_pulling_0"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "item/bow/hustle_revolver/revolver_idle"
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "item/bow/hustle_revolver/revolver_idle"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/bow"
+      },
+      "on_true": {
+        "type": "minecraft:range_dispatch",
+        "entries": [
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bow_pulling_1"
+            },
+            "threshold": 0.65
+          },
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bow_pulling_2"
+            },
+            "threshold": 0.9
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/bow_pulling_0"
+        },
+        "property": "minecraft:use_duration",
+        "scale": 0.05
+      }
+    }
+  }
+}
