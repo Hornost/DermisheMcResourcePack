@@ -34,7 +34,7 @@
             },
             "on_false": {
               "type": "minecraft:model",
-              "model": "item/netherite_sword/hustle_revolver"
+              "model": "item/bow/hustle_revolver/revolver_idle"
             }
           }
         },
@@ -46,17 +46,17 @@
           }
         },
         {
-          "when": "Whispering Spear",
+          "when": "Yamato",
           "model": {
             "type": "model",
-            "model": "item/netherite_sword/whispering_spear"
+            "model": "item/netherite_sword/yamato"
           }
         },
         {
-          "when": "The Starless Night",
+          "when": "Букетик",
           "model": {
             "type": "model",
-            "model": "item/netherite_sword/the_starless_night"
+            "model": "item/netherite_sword/buketik"
           }
         },
         {
@@ -1940,75 +1940,13 @@
         }
       ],
       "fallback": {
-        "type": "range_dispatch",
-        "property": "damage",
-        "scale": 4,
-        "entries": [
-          {
-            "threshold": 0,
-            "model": {
-              "type": "model",
-              "model": "item/netherite_sword/netherite_sword"
-            }
-          },
-          {
-            "threshold": 1,
-            "model": {
-              "type": "model",
-              "model": "item/netherite_sword/netherite_sword_damaged_0"
-            }
-          },
-          {
-            "threshold": 2,
-            "model": {
-              "type": "model",
-              "model": "item/netherite_sword/netherite_sword_damaged_1"
-            }
-          },
-          {
-            "threshold": 3,
-            "model": {
-              "type": "model",
-              "model": "item/netherite_sword/netherite_sword_damaged_2"
-            }
-          }
-        ]
+        "type": "minecraft:model",
+        "model": "minecraft:item/netherite_sword"
       }
     },
     "on_false": {
-      "type": "range_dispatch",
-      "property": "damage",
-      "scale": 4,
-      "entries": [
-        {
-          "threshold": 0,
-          "model": {
-            "type": "model",
-            "model": "item/netherite_sword/netherite_sword"
-          }
-        },
-        {
-          "threshold": 1,
-          "model": {
-            "type": "model",
-            "model": "item/netherite_sword/netherite_sword_damaged_0"
-          }
-        },
-        {
-          "threshold": 2,
-          "model": {
-            "type": "model",
-            "model": "item/netherite_sword/netherite_sword_damaged_1"
-          }
-        },
-        {
-          "threshold": 3,
-          "model": {
-            "type": "model",
-            "model": "item/netherite_sword/netherite_sword_damaged_2"
-          }
-        }
-      ]
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_sword"
     }
   }
 }

@@ -159,12 +159,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/debug_stick"
+        "model": "item/wrench"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "minecraft:item/debug_stick"
+      "model": "item/wrench"
     }
   }
 }

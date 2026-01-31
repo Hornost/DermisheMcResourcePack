@@ -44,11 +44,11 @@
 			"translation": [0, -5.5, 1.75]
 		},
 		"firstperson_righthand": {
-			"rotation": [-180, 0, 0],
+			"rotation": [-180, 0, -9],
 			"translation": [3, -2.5, 0]
 		},
 		"firstperson_lefthand": {
-			"rotation": [-180, 0, 0],
+			"rotation": [-180, 0, -9],
 			"translation": [3, -2.5, 0]
 		},
 		"ground": {
