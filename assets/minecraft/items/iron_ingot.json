@@ -282,11 +282,25 @@
             "model": "minecraft:item/cc/computer"
           }
         },
-		{
+	{
           "when": "CC Disk Blue",
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/cc/disk_blue"
+          }
+        },
+	{
+          "when": "Pipe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pipe"
+          }
+        },
+	{
+          "when": "Pipe Angle",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pipe_angle"
           }
         }
 		

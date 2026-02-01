@@ -1,0 +1,29 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"property": "component",
+			"component": "custom_name",
+			"cases": [
+				{
+					"when": "Holy GS Spear",
+					"model": {
+						"type": "model",
+						"model": "item/netherite_spear/holy_gs_spear"
+						}
+					}
+		  		],
+			"fallback": {
+				"type": "minecraft:model",
+				"model": "minecraft:item/netherite_spear"
+			}
+		},
+		"on_false": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/netherite_spear"
+		}
+	}
+}

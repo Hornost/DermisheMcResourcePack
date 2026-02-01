@@ -1,10 +1,10 @@
 {
-	"format_version": "1.21.6",
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "holy_gs_sword_texture",
-		"particle": "holy_gs_sword_texture"
+		"0": "item/netherite_sword/holy_gs_sword",
+		"particle": "item/netherite_sword/holy_gs_sword"
 	},
 	"elements": [
 		{
