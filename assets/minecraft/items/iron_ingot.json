@@ -302,6 +302,41 @@
             "type": "minecraft:model",
             "model": "item/pipe_angle"
           }
+        },
+	{
+          "when": "Shimmer Block",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/shimmer_block"
+          }
+        },
+	{
+          "when": "Shimmer Fluid Level 0",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/shimmer_fluid_level_0"
+          }
+        },
+	{
+          "when": "Shimmer Fluid Level 1",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/shimmer_fluid_level_1"
+          }
+        },
+	{
+          "when": "Shimmer Fog",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/shimmer_fog"
+          }
+        },
+	{
+          "when": "Shimmer Particles",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/shimmer_particles"
+          }
         }
 		
       ],
