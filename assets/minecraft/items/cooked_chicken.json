@@ -15,6 +15,13 @@
             "type": "minecraft:model",
             "model": "minecraft:item/kfc"
           }
+        },
+		{
+          "when": "Bone",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bone"
+          }
         }
       ],
       "fallback": {

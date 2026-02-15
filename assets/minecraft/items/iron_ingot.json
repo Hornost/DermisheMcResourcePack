@@ -337,8 +337,14 @@
             "type": "minecraft:model",
             "model": "minecraft:block/shimmer_particles"
           }
-        }
-		
+        },
+	{
+          "when": "Shimmershroom",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/shimmershroom"
+          }
+        }	
       ],
       "fallback": {
         "type": "minecraft:model",
