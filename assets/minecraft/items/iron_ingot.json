@@ -344,6 +344,13 @@
             "type": "minecraft:model",
             "model": "minecraft:block/shimmershroom"
           }
+        },
+	{
+          "when": "Букетик",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_sword/buketik"
+          }
         }	
       ],
       "fallback": {
