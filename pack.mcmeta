@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 71,
+        "pack_format": 75,
 		"supported_formats": [49, 999],
         "description": "made by Human resources"
     }

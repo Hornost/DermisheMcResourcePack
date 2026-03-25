@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "model": "minecraft:item/golden_carrot",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+		{
+          "when": "LPH Bucket",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/kfc"
+          }
+        },
+		{
+          "when": "Bone",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bone"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/golden_carrot"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/golden_carrot"
+    }
+  }
+}

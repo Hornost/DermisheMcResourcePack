@@ -351,6 +351,20 @@
             "type": "minecraft:model",
             "model": "minecraft:item/netherite_sword/buketik"
           }
+        },
+	{
+          "when": "WIP",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wip_sign"
+          }
+        },
+	{
+          "when": "TV",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/tv"
+          }
         }	
       ],
       "fallback": {
