@@ -5,26 +5,33 @@
     "component": "minecraft:custom_name",
     "on_true": {
       "type": "minecraft:select",
-      "model": "minecraft:item/diamond",
+      "model": "minecraft:item/iron_bars",
       "property": "minecraft:component",
       "component": "minecraft:custom_name",
       "cases": [
-        {
-          "when": "Dollar",
+	{
+          "when": "RS STOP",
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/2b/dollar"
+            "model": "minecraft:item/road_sign/stop"
+          }
+        },
+	{
+          "when": "RSP STOP",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/road_sign_pillar/stop"
           }
         }
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/diamond"
+        "model": "minecraft:item/iron_bars"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "minecraft:item/diamond"
+      "model": "minecraft:item/iron_bars"
     }
   }
 }

@@ -365,7 +365,14 @@
             "type": "minecraft:model",
             "model": "minecraft:item/tv"
           }
-        }	
+        },
+	{
+          "when": "Ant",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/ant"
+          }
+        }
       ],
       "fallback": {
         "type": "minecraft:model",

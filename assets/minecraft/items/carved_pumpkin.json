@@ -5,26 +5,32 @@
     "component": "minecraft:custom_name",
     "on_true": {
       "type": "minecraft:select",
-      "model": "minecraft:item/diamond",
       "property": "minecraft:component",
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when": "Dollar",
+          "when": "Crown",
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/2b/dollar"
+            "model": "minecraft:item/crown"
+          }
+        },
+        {
+          "when": "Red Crown",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/red_crown"
           }
         }
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/diamond"
+        "model": "minecraft:item/carved_pumpkin"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "minecraft:item/diamond"
+      "model": "minecraft:item/carved_pumpkin"
     }
   }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/road_sign_parent",
+  "textures": {
+    "sign": "minecraft:item/road_sign/stop"
+  }
+}
