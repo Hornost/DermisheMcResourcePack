@@ -1,37 +1,30 @@
 {
-  "model": {
-    "type": "minecraft:condition",
-    "property": "minecraft:has_component",
-    "component": "minecraft:custom_name",
-    "on_true": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/iron_bars",
-      "property": "minecraft:component",
-      "component": "minecraft:custom_name",
-      "cases": [
-	{
-          "when": "RS STOP",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/road_sign/stop"
-          }
-        },
-	{
-          "when": "RSP STOP",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/road_sign_pillar/stop"
-          }
-        }
-      ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/iron_bars"
-      }
-    },
-    "on_false": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/iron_bars"
-    }
-  }
+	"model": {
+		"type": "minecraft:condition",
+		"property": "minecraft:has_component",
+		"component": "minecraft:custom_name",
+		"on_true": {
+			"type": "minecraft:select",
+			"model": "minecraft:item/iron_bars",
+			"property": "minecraft:component",
+			"component": "minecraft:custom_name",
+			"cases": [
+				{
+					"when": "STOP",
+					"model": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/road_sign/stop"
+					}
+				}
+			],
+			"fallback": {
+				"type": "minecraft:model",
+				"model": "minecraft:item/iron_bars"
+			}
+		},
+		"on_false": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/iron_bars"
+		}
+	}
 }
