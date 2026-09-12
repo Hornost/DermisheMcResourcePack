@@ -109,18 +109,21 @@
 		{
 			"name": "group",
 			"origin": [7.5, 2, 7],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				0,
 				{
 					"name": "group",
 					"origin": [7.5, 2, 7],
+					"scope": 0,
 					"color": 0,
 					"children": [1, 2]
 				},
 				{
 					"name": "group",
 					"origin": [7.5, -7, 7],
+					"scope": 0,
 					"color": 0,
 					"children": [3, 4]
 				}
