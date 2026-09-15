@@ -1,29 +1,65 @@
 {
-	"model": {
-		"type": "condition",
-		"property": "has_component",
-		"component": "custom_name",
-		"on_true": {
-			"type": "select",
-			"property": "component",
-			"component": "custom_name",
-			"cases": [
-				{
-					"when": "Holy GS Dash Spear",
-					"model": {
-						"type": "model",
-						"model": "item/wooden_spear/holy_gs_dash_spear"
-						}
-					}
-		  		],
-			"fallback": {
-				"type": "minecraft:model",
-				"model": "minecraft:item/wooden_spear"
-			}
-		},
-		"on_false": {
-			"type": "minecraft:model",
-			"model": "minecraft:item/wooden_spear"
-		}
-	}
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Holy GS Dash Spear",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/wooden_spear/holy_gs_dash_spear"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "cases": [
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_spear"
+            },
+            "when": [
+              "gui",
+              "ground",
+              "fixed",
+              "on_shelf"
+            ]
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/wooden_spear_in_hand"
+        },
+        "property": "minecraft:display_context"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "cases": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_spear"
+          },
+          "when": [
+            "gui",
+            "ground",
+            "fixed",
+            "on_shelf"
+          ]
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/wooden_spear_in_hand"
+      },
+      "property": "minecraft:display_context"
+    }
+  }
 }
